@@ -1,0 +1,49 @@
+= Colofón
+
+== Citación
+
+// If English
+ifeval::["{language}" == "en"]
+This user manual adapts and builds upon the previous IPT User Manuals (Réveillon 2009, Wieczorek & Braak 2016). The recommended citation for this user manual is as follows:
+endif::[]
+// Else
+ifeval::["{language}" != "en"]
+El link:../../../en/[manual de usuario original en inglés] se adapta y se basa en los manuales de usuario de IPT anteriores (Réveillon 2009, Wieczorek & Braak 2016). La cita recomendada para el manual del usuario en inglés es la siguiente:
+// Endif
+endif::[]
+
+// English user manual citation
+[quote]
+Wieczorek J & Braak K ({localyear}) The GBIF Integrated Publishing Toolkit User Manual, version {page-component-version}. Copenhagen: GBIF Secretariat. https://ipt.gbif.org/manual/en/ipt/{page-component-version}/
+
+// If not English
+ifeval::["{language}" != "en"]
+La traducción de esta versión al español es una contribución de María Alejandra Meneses Giorgi, Dairo Escobar, Ricardo Ortiz, Sara Gaviria, Camila Plata, Néstor Beltrán, Daniel Amariles y Valerie Dean del equipo Coordinador del Sistema de Información sobre la Biodiversidad de Colombia (http://www.biodiversidad.co/[SIB Colombia]), la Secretaría de GBIF(https://www.gbif.org/es/publisher/fbca90e3-8aed-48b1-84e3-369afbd000ce[GBIF Secretariat]), Angela Devia del Instituto de Investigación de Recursos Biológicos Alexander Von Humboldt (http://www.humboldt.org.co/es/[IAVH]), Anabela Plos de GBIF Argentina, Emanuel Robles y Patricia Ramos de La Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (https://www.gob.mx/conabio[CONABIO]), Carmen Lujano y Miguel Vega de GBIF España y el voluntario de GBIF Victor Chocho. La citación recomendada para esta traducción al español es la siguiente:
+
+// Translated user manual citation
+[quote]
+Wieczorek J & Braak K ({localyear}) Manual del usuario del GBIF Integrated Publishing Toolkit, versión {page-component-version}. Copenhagen: GBIF Secretariat. https://ipt.gbif.org/manual/{language}/ipt/{page-component-version}/
+// Endif
+endif::[]
+
+== Derechos de autor
+
+El GBIF Integrated Publishing Toolkit y este manual de usuario está protegido por Derechos de autor © 2016–{localyear} por la Secretaría del Servicio Global de Información sobre Biodiversidad.
+
+== Licencia
+
+El Integrated Publishing Toolkit de GBIF es un software de código abierto lanzado bajo la Licencia Apache Versión 2.0. Usted puede obtener una copia de esta Licencia en http://www.apache.org/licenses/LICENSE-2.0. A menos que lo exija la ley aplicable o se acuerde por escrito, el software distribuido bajo esta Licencia se distribuye "tal cual", sin garantías de condiciones de ningún tipo, ya sean expresas o implícitas. Vea la Licencia para lenguaje específico bajo los derechos y limitaciones que rigen en virtud de la Licencia.
+
+This user manual is released under the Creative Commons Attribution-Non-commercial-Share Alike 3.0 Unported License. You may obtain a copy of this license at http://creativecommons.org/licenses/by-nc-sa/3.0/. Though you should consult the actual license document for details, in general terms the license states that you are free to copy, distribute, transmit, remix and adapt the work, under the following conditions:
+
+* you must cite the work in the manner specified on this page (but not in a way that suggests that GBIF or the GBIF Secretariat endorses you or your use of the work);
+* you may not use this work for commercial purposes;
+* if you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
+
+== Referencias
+
+// GitHub and Google Code versions
+Wieczorek J & Braak K (2016) The GBIF Integrated Publishing Toolkit User Manual, version 2.3.4. Copenhagen: GBIF Secretariat. https://github.com/gbif/ipt/wiki/IPTManualNotes.wiki
+
+// https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/gbif-providertoolkit/GBIF_IPT_User_Manual_1.0.pdf
+Réveillon A (2009) The GBIF Integrated Publishing Toolkit User Manual, version 1.0. Copenhagen: GBIF Secretariat. https://links.gbif.org/ipt_manual_1.0
