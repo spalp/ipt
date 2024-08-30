@@ -41,6 +41,7 @@ image::ipt2/flow-all.png[]
 . Transform your data into a table structure, using Darwin Core (DwC) terms as column names
 ** Hint: try using an Excel template to structure your data, and understand what DwC terms are required and recommended (Excel templates for each dataset class are available in the above links - see the previous point)
 ** Hint: it is possible to use data stored in a xref:database-connection.adoc[supported database]
+. Export as a .csv or .txt with a UTF-8 encoding and send it for a quality check the [GBIF data validation tool](https://www.gbif.org/tools/data-validator) (recommended but not necessary). Explore and decide whether to address the [reported issues and flags](https://data-blog.gbif.org/post/issues-and-flags/).
 . Upload your data to the IPT
 ** Hint: refer to other sections of this manual for additional guidance, such as the xref:manage-resources.adoc[Manage Resources Menu] section.
 . Map the data (e.g. xref:checklist-data.adoc[Checklist Data] gets mapped to the {latest-dwc-taxon}[Taxon Core], xref:occurrence-data.adoc[Occurrence Data] gets mapped to the {latest-dwc-occurrence}[Occurrence Core], xref:sampling-event-data.adoc[Sampling Event Data] gets mapped to the {latest-dwc-event}[Event Core]).
